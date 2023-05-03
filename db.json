@@ -57,20 +57,6 @@
       "id": 10
     },
     {
-      "name": "Deadlift",
-      "image": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2018/02/The-5-Most-Dangerous-Deadlift-Mistakes.jpg",
-      "equipment": "barbell",
-      "duration": "70",
-      "id": 11
-    },
-    {
-      "name": "cardio",
-      "image": "https://images.theconversation.com/files/478906/original/file-20220812-22-plgtr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
-      "equipment": "no equipment",
-      "duration": "70",
-      "id": 12
-    },
-    {
       "name": "cardio",
       "image": "https://images.theconversation.com/files/478906/original/file-20220812-22-plgtr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
       "equipment": "jump rope",
@@ -79,10 +65,24 @@
     },
     {
       "name": "cardio",
-      "image": "https://images.theconversation.com/files/478906/original/file-20220812-22-plgtr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.gq.com%2Fphotos%2F580a26d7aafbc05a239a57f7%2Fmaster%2Fw_5616%2Ch_3744%2Cc_limit%2Fsit-up-butt.jpg&tbnid=HFEXKddc2hcHMM&vet=12ahUKEwjFktS0kpD-AhX9pycCHQZSBsUQMygAegUIARDjAQ..i&imgrefurl=https%3A%2F%2Fwww.gq.com%2Fgallery%2Fsecrets-to-perfect-sit-ups&docid=Ux5aJ_jzUpOiWM&w=5616&h=3744&q=situps&ved=2ahUKEwjFktS0kpD-AhX9pycCHQZSBsUQMygAegUIARDjAQ",
       "equipment": "jump rope",
       "duration": "30",
-      "id": 14
+      "id": 15
+    },
+    {
+      "name": "cardio",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.gq.com%2Fphotos%2F580a26d7aafbc05a239a57f7%2Fmaster%2Fw_5616%2Ch_3744%2Cc_limit%2Fsit-up-butt.jpg&tbnid=HFEXKddc2hcHMM&vet=12ahUKEwjFktS0kpD-AhX9pycCHQZSBsUQMygAegUIARDjAQ..i&imgrefurl=https%3A%2F%2Fwww.gq.com%2Fgallery%2Fsecrets-to-perfect-sit-ups&docid=Ux5aJ_jzUpOiWM&w=5616&h=3744&q=situps&ved=2ahUKEwjFktS0kpD-AhX9pycCHQZSBsUQMygAegUIARDjAQ",
+      "equipment": "jump rope",
+      "duration": "30",
+      "id": 16
+    },
+    {
+      "name": "example",
+      "image": "https://www.shape.com/thmb/qr6AnPByfid8VTqqv9nrKgJOUr0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-cardio-exercises-promo-2000-498cbfb8f07541b78572bf810e7fb600.jpg",
+      "equipment": "jump rope",
+      "duration": "30",
+      "id": 17
     }
   ]
 }

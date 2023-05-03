@@ -201,10 +201,11 @@ footer {
 
 
 
-  /* Container for all the components */
+/* Container for all the components */
 .container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -214,6 +215,8 @@ footer {
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 5px;
+  flex-basis: calc(33.33% - 10px);
+  box-sizing: border-box;
 }
 
 /* WorkoutsList component */
@@ -221,6 +224,8 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  flex-basis: calc(66.66% - 10px);
+  box-sizing: border-box;
 }
 
 .workout-item {
@@ -243,10 +248,3 @@ footer {
 .workout-item p {
   margin: 0;
 }
-
-  
-  
-  
-  
-  
- 

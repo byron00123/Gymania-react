@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const SearchForm = ({ onSearch }) => {
   const [name, setName] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onSearch(name);
-    setName('');
+    if (typeof onSearch === 'function') {
+      onSearch(name);
+      setName('');
+    } else {
+      console.error('onSearch is not a function');
+    }
   };
 
   return (
@@ -19,6 +24,10 @@ const SearchForm = ({ onSearch }) => {
       <button id="search-btn" type="submit">Search</button>
     </form>
   );
+};
+
+SearchForm.propTypes = {
+  onSearch: PropTypes.func.isRequired,
 };
 
 export default SearchForm;
