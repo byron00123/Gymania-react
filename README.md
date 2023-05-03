@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Workout Catalogue React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple workout catalogue React app that allows users to view a list of workouts, search for specific workouts, and view details about each workout.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with this project, first clone the repository to your local machine:
 
-### `npm start`
+```bash
+git clone https://github.com/your-username/workout-catalogue.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then navigate to the project directory and install the necessary dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+cd workout-catalogue
+npm install
+```
 
-### `npm test`
+Finally, start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+```
 
-### `npm run build`
+The app will be available at `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Viewing Workouts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When the app loads, you will be presented with a list of workouts. Each workout includes an image, name, equipment, and duration.
 
-### `npm run eject`
+### Searching for Workouts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To search for a specific workout, enter the name of the workout into the search field at the top of the page and click "Search". The list of workouts will be filtered to only show workouts that match the search term.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Viewing Workout Details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To view details about a specific workout, click on the workout in the list. This will take you to a page that displays more information about the workout, including a description and a list of steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+If you'd like to contribute to this project, please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository
+2. Create a new branch for your changes (`git checkout -b my-new-feature`)
+3. Make your changes and commit them (`git commit -am 'Add some feature'`)
+4. Push your changes to your forked repository (`git push origin my-new-feature`)
+5. Create a new pull request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under Byron Omondi.
