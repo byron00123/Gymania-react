@@ -1,0 +1,74 @@
+{
+    "workouts": [
+      {
+        "id": 1,
+        "name": "Push ups",
+        "image": "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHVzaCUyMHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "equipment": "None",
+        "duration": 30
+      },
+      {
+        "name": "Squats",
+        "image": "https://www.themanual.com/wp-content/uploads/sites/9/2022/12/sergio-pedemonte-g_1skq9gl8o-unsplash-800x800-1.jpeg?fit=800%2C800&p=1",
+        "equipment": "Barbell",
+        "duration": "30",
+        "id": 2
+      },
+      {
+        "name": "cardio",
+        "image": "https://www.shape.com/thmb/qr6AnPByfid8VTqqv9nrKgJOUr0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-cardio-exercises-promo-2000-498cbfb8f07541b78572bf810e7fb600.jpg",
+        "equipment": "jump rope",
+        "duration": "40",
+        "id": 3
+      },
+      {
+        "name": "Russian climb",
+        "image": "https://image.boxrox.com/2020/08/rope-climb-workouts-e1625663764668.jpg",
+        "equipment": "robe",
+        "duration": "40",
+        "id": 4
+      },
+      {
+        "name": "situps",
+        "image": "https://media.gq.com/photos/580a2b24f079a45e2ed55593/master/w_1920%2Cc_limit/sit-up.jpg",
+        "equipment": "mat",
+        "duration": "40",
+        "id": 6
+      },
+      {
+        "name": "kettle abbs",
+        "image": "https://www.shape.com/thmb/nr40qdvocwCSQ5AOhebFeWlCeis=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/This-Kettlebell-Ab-Workout-Will-Rock-Your-Entire-Core-GettyImages-511015556-2000-ca496cf5629e4fbf829d9a578d6e7a3a.jpg",
+        "equipment": "kettlebell",
+        "duration": "20",
+        "id": 8
+      },
+      {
+        "name": "front squat",
+        "image": "https://www.verywellfit.com/thmb/n1orRxXykxXOZ4w3Nq_gdeuHAFA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/gym---men-doing-front-squats-651184881-a59548749d6243aa8b3781cc66af77ab.jpg",
+        "equipment": "barbell",
+        "duration": "40",
+        "id": 9
+      },
+      {
+        "name": "Deadlift2",
+        "image": "https://images.theconversation.com/files/478906/original/file-20220812-22-plgtr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
+        "equipment": "Barbell",
+        "duration": "100",
+        "id": 10
+      },
+      {
+        "name": "Deadlift",
+        "image": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2018/02/The-5-Most-Dangerous-Deadlift-Mistakes.jpg",
+        "equipment": "barbell",
+        "duration": "70",
+        "id": 11
+      },
+      {
+        "name": "cardio",
+        "image": "https://images.theconversation.com/files/478906/original/file-20220812-22-plgtr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
+        "equipment": "no equipment",
+        "duration": "70",
+        "id": 12
+      }
+    ]
+  }
