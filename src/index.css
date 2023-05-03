@@ -198,7 +198,52 @@ footer {
   background-color: #fff;
   color: #008080;
   }
-  
+
+
+
+  /* Container for all the components */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Styles for each component */
+.component {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* WorkoutsList component */
+#workouts-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.workout-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workout-item img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.workout-item h3 {
+  margin-bottom: 5px;
+}
+
+.workout-item p {
+  margin: 0;
+}
+
   
   
   
